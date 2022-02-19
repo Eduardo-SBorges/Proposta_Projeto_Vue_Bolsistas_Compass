@@ -1,0 +1,33 @@
+body {
+  width: 100vw;
+  height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: antiquewhite;
+  box-sizing: border-box;
+
+  nav {
+    a {
+      position: absolute;
+      text-decoration: none;
+      color: blueviolet;
+      padding: 20px;
+      font-size: x-large;
+
+      & + a {
+        margin-left: 100px;
+      }
+      &:hover {
+        color: blue;
+        text-decoration: underline;
+        border-radius: 30%;
+        background-color: aquamarine;
+      }
+    }
+  }
+}
