@@ -1,4 +1,4 @@
-# compass_logon
+Modelo de Arquitetura e Modulação de Arquivos para um novo Projeto em VUE.js
 
 ## Project setup
 ```
